@@ -1,0 +1,1 @@
+import React from 'react'; import Navbar from '../components/Navbar'; export default function Store(){ return (<div><Navbar /><main className='max-w-7xl mx-auto p-6'><h2 className='text-2xl font-semibold'>Store (coming soon)</h2></main></div>); }

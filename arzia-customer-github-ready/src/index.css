@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{--gold:#B8860B}
+body { @apply bg-white text-gray-800; }
+.header-logo img { height: 48px; width: auto; }
+.coming-soon { background: linear-gradient(180deg,#fffaf2,#fff); min-height:100vh; display:flex; align-items:center; justify-content:center; }
+.coming-card{ max-width:520px; text-align:center; padding:32px; border-radius:12px; box-shadow:0 6px 20px rgba(0,0,0,0.08); }

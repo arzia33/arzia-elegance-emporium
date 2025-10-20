@@ -1,0 +1,3 @@
+import React from 'react';
+import Navbar from '../components/Navbar';
+export default function Home(){ return (<div><Navbar /><main className="max-w-7xl mx-auto p-6"><section className="bg-gradient-to-r from-white to-gray-50 p-8 rounded-lg mb-6"><h1 className="text-3xl font-bold mb-2">Welcome to ARZIA Elegance Emporium</h1><p className="text-gray-700">Discover refined fashion: shoes, bags, clothes, abaya, jewellery, cosmetics and accessories.</p></section></main></div>); }
